@@ -1,0 +1,34 @@
+body {
+    background-color: beige;
+}
+
+.block {
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+.titles {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titles,
+.list {
+    text-align: center;
+}
+
+.list {
+    color: purple;
+}
